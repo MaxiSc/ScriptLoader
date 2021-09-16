@@ -1,9 +1,9 @@
 {
-    "id": "Gplatform",
+    "id": "SWG-gaa-nota",
     "async": true,
     "location": "body-bottom",
     "section": "nota",
-    "src": "https://apis.google.com/js/platform.js",
+    "src": "https://news.google.com/swg/js/v1/swg-gaa.js",
     "env": "sandbox"
 }
 
@@ -18,11 +18,11 @@
 }
 
 {
-    "id": "SWG-gaa-nota",
+    "id": "Gplatform",
     "async": true,
     "location": "body-bottom",
     "section": "nota",
-    "src": "https://news.google.com/swg/js/v1/swg-gaa.js",
+    "src": "https://apis.google.com/js/platform.js",
     "env": "sandbox"
 }
 
