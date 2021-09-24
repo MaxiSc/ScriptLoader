@@ -1,0 +1,46 @@
+[
+  //exclude last comma (,)
+  {
+    "id": "SWG-gaa-nota",
+    "async": true,
+    "location": "body-bottom",
+    "section": "nota",
+    "src": "https://news.google.com/swg/js/v1/swg-gaa.js",
+    "env": "prod"
+  },
+  {
+    "id": "SWG-news",
+    "subscriptions-control": "manual",
+    "location": "body-bottom",
+    "section": "nota",
+    "async": true,
+    "src": "https://news.google.com/swg/js/v1/swg.js",
+    "env": "prod"
+  },
+  {
+    "id": "Gplatform",
+    "async": true,
+    "location": "body-bottom",
+    "section": "nota",
+    "src": "https://apis.google.com/js/platform.js",
+    "env": "prod"
+  },
+  //new version
+  {
+    "id": "SwgClientLib",
+    "location": "body-bottom",
+    "section": "nota",
+    "defer": true,
+    "src": "https://static.glanacion.com/v2/registracionclientlibs/swgClientLibs-2.0.2-058d969.js",
+    "env": "prod"
+  },
+  //last stable version
+  {
+    "id": "SwgClientLib",
+    "location": "body-bottom",
+    "section": "nota",
+    "defer": true,
+    "src": "https://static.glanacion.com/v2/registracionclientlibs/swgClientLibs-2.0.2-93c63dd.js",
+    "env": "prod"
+  }
+]
